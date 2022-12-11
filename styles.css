@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    width: 70%;
+    height: 70px;
+    /* border: 1px solid #ddd; */
+    background-color: rgb(238, 237, 237);
+}
+header #add-item{
+    padding: 20px 0px 0px 10px;
+}
+header #add-item input {
+    width: 80%;
+}
+header #add-item button{
+    background-color: #689b66;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 22px;
+}
+
+
+
+#product-list ul{
+    list-style: none;
+    padding: 0;
+}
+#product-list li{
+    padding: 1em;
+}
+.edit {
+    float: right;
+    background-color: #689b66;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-right: 50px;
+}
+.delete {
+    float: right;
+    background-color: #689b66;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
